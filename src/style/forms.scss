@@ -1,0 +1,23 @@
+@include input-element();
+textarea {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    letter-spacing: 1px;
+    border: 1px solid $teal;
+    background-color: transparent;
+    font-size: 1rem;
+    height: 100px;
+    outline: none;
+    padding: 10px;
+}
+
+.select-element {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    letter-spacing: 1px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: transparent;
+    outline: none;
+}

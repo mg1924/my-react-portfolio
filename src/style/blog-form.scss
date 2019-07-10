@@ -1,0 +1,19 @@
+.blog-form-wrapper {
+    padding: 10px;
+    align-content: center;
+
+    .rte {
+        padding-top: 5px;
+        padding-bottom: 20px;
+    }
+
+    .image-uploaders {
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        
+        .file-picker, .dropzone, .dz-clickable {
+            width: 200px;
+        }
+    }
+}

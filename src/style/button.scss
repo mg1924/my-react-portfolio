@@ -1,0 +1,10 @@
+.btn {
+    @include base-btn();
+}
+
+.full-width-btn {
+    @include base-btn();
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid $dark-teal;
+}
